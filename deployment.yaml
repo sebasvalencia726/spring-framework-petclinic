@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: "2022-10-03T19:48:08Z"
   generation: 1
   labels:
-    app: petclinic-app
+    app: petclinic-app-dev
   managedFields:
   - apiVersion: apps/v1
     fieldsType: FieldsV1
@@ -84,13 +84,13 @@ metadata:
     operation: Update
     subresource: status
     time: "2022-10-03T19:48:17Z"
-  name: petclinic-app1
-  namespace: default
+  name: petclinic-app-dev
+  namespace: dev
   resourceVersion: "10521"
   uid: 4ef3ade6-96ae-4754-a9db-9d39f14166df
 spec:
   progressDeadlineSeconds: 600
-  replicas: 3
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
